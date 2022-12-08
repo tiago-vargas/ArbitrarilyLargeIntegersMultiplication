@@ -12,4 +12,15 @@ public class CalculatorTest {
 
         Assertions.assertEquals("123456", result.representation);
     }
+
+    @Test
+    void multiplyingByZero() {
+        var calculator = new Calculator();
+        var multiplicand = new LargeInt("123456");
+        var multiplier = new LargeInt("0");
+
+        LargeInt result = calculator.multiply(multiplicand, multiplier);
+
+        Assertions.assertEquals("0", result.representation);
+    }
 }
