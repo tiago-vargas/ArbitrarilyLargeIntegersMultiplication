@@ -3,20 +3,26 @@ public class LargeInt {
     String representation;
 
     public LargeInt(String representation) {
-        this.cells = parseIntoCells(representation);
+        cells = parseIntoCells(representation);
         this.representation = representation;
     }
 
     private DoublyLinkedList parseIntoCells(String representation) {
-        var cells = new DoublyLinkedList();
+        cells = new DoublyLinkedList();
 
-        int lastIndex = representation.length() - 1;
+        int numberOfDigits = representation.length();
+
+        if (numberOfDigits <= 3) {
+            cells.add(Integer.parseInt(representation));
+            return cells;
+        }
+
+        int lastIndex = numberOfDigits - 1;
         int antepenultimateIndex = lastIndex - 2;
         String lastThreeDigits = representation.substring(antepenultimateIndex);
         insertCell(Integer.parseInt(lastThreeDigits));
 
-        if (representation.length() > 3)
-            cells.add(Integer.parseInt(representation.substring(0, antepenultimateIndex)));
+        cells.add(Integer.parseInt(representation.substring(0, antepenultimateIndex)));
 
         return cells;
     }
