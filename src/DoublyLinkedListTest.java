@@ -28,4 +28,11 @@ public class DoublyLinkedListTest {
         Assertions.assertEquals(2, list.head.value);
         Assertions.assertEquals(1, list.head.rightNode.value);
     }
+
+    @Test
+    void addingTooLargeNumber_ShouldThrowException() {
+        var list = new DoublyLinkedList();
+
+        Assertions.assertThrows(NodeValueOutOfBoundsException.class, () -> list.add(1234));
+    }
 }

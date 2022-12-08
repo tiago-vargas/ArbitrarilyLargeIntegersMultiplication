@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="AuxFeat: Add item to the left of the previous item">
+    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="AuxFeat: Throw exception when value of node is not in [0, 999]">
       <change afterPath="$PROJECT_DIR$/ArbitrarilyLargeIntegersMultiplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LargeIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NodeValueOutOfBoundsException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LargeInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LargeInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="parse-six-digits" />
+        <entry key="$PROJECT_DIR$" value="71bbd35a1a7950416911f18f098fc50125af6387" />
       </map>
     </option>
     <option name="RESET_MODE" value="SOFT" />
@@ -60,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LargeIntTest">
+  <component name="RunManager" selected="JUnit.DoublyLinkedListTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ArbitrarilyLargeIntegersMultiplication" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,6 +99,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670511492165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="AuxFeat: Parse a 6-digit number into triplets.">
+      <created>1670521233832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670521233832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +204,8 @@
     <MESSAGE value="AuxFeat: Create empty list" />
     <MESSAGE value="AuxFeat: Make last item added to list be its head" />
     <MESSAGE value="AuxFeat: Add item to the left of the previous item" />
-    <option name="LAST_COMMIT_MESSAGE" value="AuxFeat: Add item to the left of the previous item" />
+    <MESSAGE value="AuxFeat: Parse a 6-digit number into triplets." />
+    <MESSAGE value="AuxFeat: Throw exception when value of node is not in [0, 999]" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuxFeat: Throw exception when value of node is not in [0, 999]" />
   </component>
 </project>
