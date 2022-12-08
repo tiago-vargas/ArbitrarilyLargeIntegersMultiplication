@@ -1,10 +1,7 @@
 public class DoublyLinkedList {
     Node head;
 
-    public void add(int value) throws NodeValueOutOfBoundsException {
-        if (value < 0 || value > 999)
-            throw new NodeValueOutOfBoundsException("Value for node is out of bounds");
-
+    public void add(int value) {
         Node newHead = new Node(value);
         Node currentHead = this.head;
 
