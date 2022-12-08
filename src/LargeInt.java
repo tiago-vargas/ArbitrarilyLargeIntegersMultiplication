@@ -10,7 +10,12 @@ public class LargeInt {
     private DoublyLinkedList parse(String representation) {
         var cells = new DoublyLinkedList();
 
-        cells.add(Integer.parseInt(representation));
+        int lastIndex = representation.length() - 1;
+        int antepenultimateIndex = lastIndex - 2;
+        cells.add(Integer.parseInt(representation.substring(antepenultimateIndex)));
+
+        if (representation.length() > 3)
+            cells.add(Integer.parseInt(representation.substring(0, antepenultimateIndex)));
 
         return cells;
     }

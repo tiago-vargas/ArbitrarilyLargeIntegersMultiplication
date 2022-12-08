@@ -8,4 +8,12 @@ public class LargeIntTest {
 
         Assertions.assertEquals(123, number.cells.head.value);
     }
+
+    @Test
+    void parsingLargeIntIntoThreeDigitCells() {
+        var number = new LargeInt("123456");
+
+        Assertions.assertEquals(123, number.cells.head.value);
+        Assertions.assertEquals(456, number.cells.head.rightNode.value);
+    }
 }
