@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="AuxFeat: Create empty list">
+    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="AuxFeat: Add item to the left of the previous item">
       <change afterPath="$PROJECT_DIR$/ArbitrarilyLargeIntegersMultiplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +138,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670510069910</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="AuxFeat: Add first item added to list be its head">
+      <created>1670510541314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670510541314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="AuxFeat: Add first item added to list be its head">
+      <created>1670510637262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670510637262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="AuxFeat: Add item to the left of the previous item">
+      <created>1670511433053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670511433053</updated>
+    </task>
+    <task id="LOCAL-00008" summary="AuxFeat: Add item to the left of the previous item">
+      <created>1670511492165</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670511492165</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +191,8 @@
     <MESSAGE value="Feat: Multiply by 1" />
     <MESSAGE value="Feat: Multiply by 0" />
     <MESSAGE value="AuxFeat: Create empty list" />
-    <option name="LAST_COMMIT_MESSAGE" value="AuxFeat: Create empty list" />
+    <MESSAGE value="AuxFeat: Make last item added to list be its head" />
+    <MESSAGE value="AuxFeat: Add item to the left of the previous item" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuxFeat: Add item to the left of the previous item" />
   </component>
 </project>

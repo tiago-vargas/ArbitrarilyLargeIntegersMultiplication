@@ -18,4 +18,14 @@ public class DoublyLinkedListTest {
 
         Assertions.assertEquals(3, list.head.value);
     }
+
+    @Test
+    void addedItem_ShouldBeToTheLeftOfPreviousItem() {
+        var list = new DoublyLinkedList();
+        list.add(1);
+        list.add(2);
+
+        Assertions.assertEquals(2, list.head.value);
+        Assertions.assertEquals(1, list.head.rightNode.value);
+    }
 }
