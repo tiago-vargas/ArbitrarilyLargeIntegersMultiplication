@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="Feat: Multiply by 0">
+    <list default="true" id="11f233bf-66ba-4672-ad78-d46af5595bdc" name="Changes" comment="AuxFeat: Create empty list">
       <change afterPath="$PROJECT_DIR$/ArbitrarilyLargeIntegersMultiplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -117,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670509256516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AuxFeat: Create empty list">
+      <created>1670510008617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670510008617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="AuxFeat: Create empty list">
+      <created>1670510069910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670510069910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +162,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Feat: Multiply by 1" />
     <MESSAGE value="Feat: Multiply by 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Multiply by 0" />
+    <MESSAGE value="AuxFeat: Create empty list" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuxFeat: Create empty list" />
   </component>
 </project>
